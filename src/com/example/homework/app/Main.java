@@ -16,7 +16,7 @@ public class Main {
         int liczba = scanner.nextInt();
 
         Sum sum = new Sum(liczba);
-        sum.result(liczba);
+        sum.result();
 
 
     }

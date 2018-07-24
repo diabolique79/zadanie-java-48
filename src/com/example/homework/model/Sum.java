@@ -8,11 +8,8 @@ public class Sum {
         this.number = number;
     }
 
-    public int getNumber() {
-        return number;
-    }
 
-    public void result(int number){
+    public void result(){
         int wynik = 0;
         while (number!=0){
 
