@@ -2,14 +2,7 @@ package com.example.homework.model;
 
 public class Sum {
 
-    private int number;
-
-    public Sum(int number) {
-        this.number = number;
-    }
-
-
-    public void result(){
+    public static void result (int number){
         int wynik = 0;
         while (number!=0){
 
