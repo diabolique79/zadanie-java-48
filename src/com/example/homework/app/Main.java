@@ -15,8 +15,7 @@ public class Main {
         System.out.println("Podaj liczbę: ");
         int liczba = scanner.nextInt();
 
-        Sum sum = new Sum();
-        sum.result(liczba);
+        System.out.println(Sum.result(liczba));
 
 
     }
